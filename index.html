@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1V8SEQQQFX"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+		gtag('config', 'G-1V8SEQQQFX');
+	</script>
+	<title>Dr Anett Keszler</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+	<div id="dhead" class="container">
+		<div class="row">
+			<div id="dpic">
+				<img src="assets/photo.png" class="ppic" />
+			</div>
+			<div id="ddesc">
+				<h1>Anett Keszler</h1>
+				<h2>I am a backend software developer with a background in pharmacy.</h2>
+				<div id="dico">
+					<a href="https://github.com/anettkeszler" target="_blank"><img src="assets/github.png" class="iico" /></a>
+					<a href="https://www.linkedin.com/in/dr-anett-keszler/" target="_blank"><img src="assets/linkedin.png" class="iico" /></a>
+					<a href="https://anettkeszler.github.io/resume" target="_blank"><img alt="My resume" src="assets/resume.png"
+							class="iico" /></a>
+				</div>
+			</div>
+		</div>
+		<div style="margin: 0 auto; width: 100%;">
+			<iframe id="timeline-frame" src="/timeline.html" style="width:100%; border:none;visibility: hidden;"
+				scrolling="no">
+			</iframe>
+			<script>
+				window.addEventListener("message", function (event) {
+					const iframe = document.getElementById("timeline-frame");
+					if (event.data.height) {
+						iframe.style.height = event.data.height + "px";
+					}
+					iframe.style.visibility = "visible";
+				});
+			</script>
+		</div>
+	</div>
+</body>
+
+</html>
