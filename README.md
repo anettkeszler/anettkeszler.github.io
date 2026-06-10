@@ -1,1 +1,1 @@
-# anettkeszler.github.io![alt text](image.png)
+# anettkeszler.github.io
